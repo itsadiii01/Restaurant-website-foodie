@@ -9,7 +9,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 import Logo from "../../assets/food-logo.png";
 import { AiOutlineMenu } from "react-icons/ai";
-import DarkMode from "/Users/adityavikarmsingh/E-commerce copy/client/src/LadingPage/Navbar/DarkMode.jsx";
+
 import { FaHome } from "react-icons/fa";
 const Header = () => {
   const [auth, setAuth] = useAuth();
