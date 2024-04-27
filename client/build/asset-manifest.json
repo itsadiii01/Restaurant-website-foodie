@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d9e5a34.css",
+    "main.js": "/static/js/main.7d278d02.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/biryani3.png": "/static/media/biryani3.9cc58f1aa1c608dedaad.png",
+    "static/media/biryani2.png": "/static/media/biryani2.441280f974aa1f3fd8c6.png",
+    "static/media/mobile_bike.gif": "/static/media/mobile_bike.9a0ce817fb81695cba85.gif",
+    "static/media/file.png": "/static/media/file.72c401a412deb30d81f4.png",
+    "static/media/biryani5.png": "/static/media/biryani5.eb08a07273fb6f99cf44.png",
+    "static/media/food-logo.png": "/static/media/food-logo.50a9b10ad357b6ee4741.png",
+    "static/media/coldcoffe.webp": "/static/media/coldcoffe.d628f3986028ff8ee54d.webp",
+    "static/media/dark-mode-button.png": "/static/media/dark-mode-button.c5b620c1550b3c201b56.png",
+    "static/media/light-mode-button.png": "/static/media/light-mode-button.9ed4504ff522dfde699a.png",
+    "static/media/app_store.png": "/static/media/app_store.8a5164ca9f62a2d5c172.png",
+    "static/media/vector3.png": "/static/media/vector3.11f7c2d7ef6c649f560e.png",
+    "static/media/play_store.png": "/static/media/play_store.1be3feade6ae12c67801.png",
+    "static/media/biryani_cover.jpg": "/static/media/biryani_cover.ebed878dc4647355a989.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.0d9e5a34.css.map": "/static/css/main.0d9e5a34.css.map",
+    "main.7d278d02.js.map": "/static/js/main.7d278d02.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d9e5a34.css",
+    "static/js/main.7d278d02.js"
+  ]
+}
