@@ -21,7 +21,7 @@ const ProductDetails = () => {
   const getProduct = async () => {
     try {
       const { data } = await axios.get(
-        `${process.env.REACT_APP_API}/api/v1/product/get-product/${params.slug}`
+        `https://restaurant-website.up.railway.app/api/v1/product/get-product/${params.slug}`
       );
       setProduct(data?.product);
       getSimilarProduct(data?.product._id, data?.product.category._id);
@@ -34,7 +34,7 @@ const ProductDetails = () => {
   const getSimilarProduct = async (pid, cid) => {
     try {
       const { data } = await axios.get(
-        `${process.env.REACT_APP_API}/api/v1/product/related-product/${pid}/${cid}`
+        `https://restaurant-website.up.railway.app/api/v1/product/related-product/${pid}/${cid}`
       );
       setRelatedProducts(data?.products);
     } catch (error) {
@@ -48,7 +48,7 @@ const ProductDetails = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="md:col-span-1">
           <img
-            src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/${product._id}`}
+            src={`https://restaurant-website.up.railway.app/api/v1/product/product-photo/${product._id}`}
             className="card-img-top"
             alt={product.name}
           />
@@ -80,7 +80,7 @@ ADD TO CART</button>
             className="relative overflow-hidden bg-white rounded-lg shadow-md group hover:shadow-lg transition duration-300"
           >
             <img
-              src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/${p._id}`}
+              src={`https://restaurant-website.up.railway.app/api/v1/product/product-photo/${p._id}`}
               className="card-img-top"
               alt={p.name}
             />

@@ -10,7 +10,7 @@ const Products = () => {
   
  const getAllproducts = async()=>{
   try {
-    const {data} = await axios.get(`${process.env.REACT_APP_API}/api/v1/product/get-product`)
+    const {data} = await axios.get(`https://restaurant-website.up.railway.app/api/v1/product/get-product`)
     setProducts(data.products)
     
   } catch (error) {
@@ -44,7 +44,7 @@ const Products = () => {
             >
               <div className="max-w-xs rounded overflow-hidden shadow-lg">
                 <img
-                  src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/${p._id}`}
+                  src={`https://restaurant-website.up.railway.app/api/v1/product/product-photo/${p._id}`}
                   className="w-full h-48 object-cover"
                   alt={p.name}
                 />

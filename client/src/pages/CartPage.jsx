@@ -48,7 +48,7 @@ const CartPage = () => {
  //get payment gateway token
  const getToken = async () => {
   try {
-    const { data } = await axios.get(`${process.env.REACT_APP_API}/api/v1/product/braintree/token`);
+    const { data } = await axios.get(`https://restaurant-website.up.railway.app/api/v1/product/braintree/token`);
     setClientToken(data?.clientToken);
   } catch (error) {
     console.log(error);
@@ -63,7 +63,7 @@ const handlePayment = async () => {
   try {
     setLoading(true);
     const { nonce } = await instance.requestPaymentMethod();
-    const { data } = await axios.post(`${process.env.REACT_APP_API}/api/v1/product/braintree/payment`, {
+    const { data } = await axios.post(`https://restaurant-website.up.railway.app/api/v1/product/braintree/payment`, {
       nonce,
       cart,
     });
@@ -102,7 +102,7 @@ const handlePayment = async () => {
         >
           <div className="w-1/3">
             <img
-              src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/${p._id}`}
+              src={`https://restaurant-website.up.railway.app/api/v1/product/product-photo/${p._id}`}
               className="card-img-top"
               alt={p.name}
             />
