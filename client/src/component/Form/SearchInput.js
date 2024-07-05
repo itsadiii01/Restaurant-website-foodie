@@ -15,7 +15,7 @@ const SearchInput = () => {
     e.preventDefault();
     try {
       const { data } = await axios.get(
-        `${process.env.REACT_APP_API}/api/v1/product/search/${values.keyword}`
+        'https://restaurant-website.up.railway.app/api/v1/product/search/${values.keyword}'
       );
       setValues({ ...values, results: data });
       navigate("/search");
