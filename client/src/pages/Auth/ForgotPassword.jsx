@@ -32,7 +32,7 @@ const ForgotPassword = () => {
           toast.error("Password must contain at least 6 characters, one special character, and one capital letter.");
           return;
         }
-          const res = await axios.post(`https://restaurant-website.up.railway.app/api/v1/auth/forgot-password`, 
+          const res = await axios.post(`https://avs-backend-4n1n.onrender.com/api/v1/auth/forgot-password`, 
           { email, newPassword,answer });
 
           if (res && res.data.success) {

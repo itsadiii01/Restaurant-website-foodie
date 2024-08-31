@@ -18,7 +18,7 @@ const Search = () => {
       {values?.results.map((p) => (
         <div key={p._id} className="rounded-lg shadow-md overflow-hidden">
           <img
-            src={`https://restaurant-website.up.railway.app/api/v1/product/product-photo/${p._id}`}
+            src={`https://avs-backend-4n1n.onrender.com/api/v1/product/product-photo/${p._id}`}
             className="w-full h-64 object-cover"
             alt={p.name}
           />

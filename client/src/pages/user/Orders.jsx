@@ -14,7 +14,7 @@ const Orders = () => {
   const [auth, setAuth] = useAuth();
   const getOrders = async () => {
     try {
-      const { data } = await axios.get(`https://restaurant-website.up.railway.app/api/v1/auth/orders`);
+      const { data } = await axios.get(`https://avs-backend-4n1n.onrender.com/api/v1/auth/orders`);
       setOrders(data);
     } catch (error) {
       console.log(error);
@@ -62,7 +62,7 @@ const Orders = () => {
               <div key={j} className="flex-row mb-2 p-3 card">
                 <div className="w-1/3">
                   <img
-                    src={`https://restaurant-website.up.railway.app
+                    src={`https://avs-backend-4n1n.onrender.com
                     /api/v1/product/product-photo/${p._id}`}
                     className="card-img-top"
                     alt={p.name}
