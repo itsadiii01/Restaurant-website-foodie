@@ -9,7 +9,7 @@ export default function AdminRoute(){
 
     useEffect(()=>{
         const authCheck = async ()=>{
-            const res = await axios.get('https://avs-backend-4n1n.onrender.com/api/v1/auth/admin-auth')
+            const res = await axios.get('https://aditya-mern-backend.onrender.com/api/v1/auth/admin-auth')
             if(res.data.ok){
                 setOk(true);
             }else{
